@@ -1,6 +1,6 @@
 export class Processor {
   static process(data: any) {
-    const lines = data.split('\r\n')
+    const lines = data.split('\n')
     const rows: string[] = []
 
     lines.forEach((row: any) => {
